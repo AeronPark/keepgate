@@ -326,8 +326,7 @@
                 });
                 
                 if (response.ok) {
-                    form.classList.add('hidden');
-                    successMessage.classList.add('show');
+                    window.location.href = '/thanks';
                 } else {
                     alert('Something went wrong. Please try again.');
                 }
